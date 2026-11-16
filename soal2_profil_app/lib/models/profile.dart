@@ -54,7 +54,7 @@ class Profile {
       bio: 'Mahasiswa Teknik Informatika yang cinta dengan seni.',
       email: 'maulana.khadafi@email.com', 
       hp: '081234567890', 
-      github: 'github.com/username', 
+      github: 'github.com/dapimorales', 
       fotoAsset: 'assets/images/profile.jpg',
     );
   }
