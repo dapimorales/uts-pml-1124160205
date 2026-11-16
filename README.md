@@ -1,17 +1,28 @@
-# uts_maulana_khadafi_1124160205
+# UTS Pemrograman Mobile Lanjutan
 
-A new Flutter project.
+## Identitas Mahasiswa
+- **Nama:** Maulana Khadafi
+- **NIM:** 1124160205
+- **Kelas:** TI-24-A
+- **Program Studi:** Teknik Informatika - Institut Teknologi & Bisnis Bina Sarana Global
 
-## Getting Started
+## Link Video Presentasi YouTube
+- [Tonton Video Presentasi di YouTube](https://youtu.be/LINK_VIDEO_KAMU)
 
-This project is a starting point for a Flutter application.
+## Daftar Fitur (`soal2-profil-app`)
+1. **Halaman Login:** StatefulWidget dengan validasi form, indikator loading asynchronous, dan `pushReplacementNamed`.
+2. **Halaman Profil:** Foto `CircleAvatar` dari `assets/images/`, biodata lengkap, kartu kontak (`Card` + `ListTile`), `Drawer`, `BottomNavigationBar`, dan `FloatingActionButton`.
+3. **Halaman Edit Profil:** Form praisi dengan `TextEditingController`, validasi nama, email, serta nomor HP (10–13 digit angka), dan pengembalian data via `Navigator.pop(context, dataBaru)`.
+4. **Halaman Tentang Saya:** Daftar keahlian/hobi dan riwayat pendidikan dengan `ListView`.
+5. **Tema & Identitas Android:** Pergantian mode gelap langsung di dalam aplikasi dan label aplikasi Android `Profil Miles`.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshot Aplikasi
+| Login | Profil | Edit Profil |
+| :---: | :---: | :---: |
+| ![Login](soal2_profil_app/assets/images/login.png) | ![Profil](soal2_profil_app/assets/images/profilpage.png) | ![Edit Profil](soal2_profil_app/assets/images/editprofile.png) |
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cara Menjalankan Proyek
+```bash
+cd soal2-profil-app
+flutter pub get
+flutter run
