@@ -55,7 +55,7 @@ class Profile {
       email: 'maulana.khadafi@email.com', 
       hp: '081234567890', 
       github: 'github.com/dapimorales', 
-      fotoAsset: 'assets/images/profile.jpg',
+      fotoAsset: 'assets/images/profile.png',
     );
   }
 }
