@@ -7,7 +7,7 @@
 - **Program Studi:** Teknik Informatika - Institut Teknologi & Bisnis Bina Sarana Global
 
 ## Link Video Presentasi YouTube
-- [Tonton Video Presentasi di YouTube](https://youtu.be/LINK_VIDEO_KAMU)
+- https://youtu.be/aXtV1VaTWUs
 
 ## Daftar Fitur (`soal2-profil-app`)
 1. **Halaman Login:** StatefulWidget dengan validasi form, indikator loading asynchronous, dan `pushReplacementNamed`.
